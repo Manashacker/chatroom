@@ -7,7 +7,7 @@ if(strlen($room)>25 or strlen($room)<3)
   $message = "Please Choose a name between 3 to 25 letters";
   echo '<script language="javascript">';
   echo 'alert("'.$message.'");';
-  echo 'window.location="http://localhost/chatroom/";';
+  echo 'window.location="https://manashacker.github.io/chatroom/";';
   echo '</script>';
 }
 
@@ -15,7 +15,7 @@ else if(!ctype_alnum($room)){
   $message = "Please enter an alpha numeric room name";
   echo '<script language="javascript">';
   echo 'alert("'.$message.'");';
-  echo 'window.location="http://localhost/chatroom/"';
+  echo 'window.location="https://manashacker.github.io/chatroom/"';
   echo '</script>';
 }
 else {
@@ -30,7 +30,7 @@ if ($result)
       $message = "Please enter a different room name . This room is already taken";
       echo '<script language="javascript">';
       echo 'alert("'.$message.'");';
-      echo 'window.location="http://localhost/chatroom/"';
+      echo 'window.location="https://manashacker.github.io/chatroom/"';
       echo '</script>';
     }
 
